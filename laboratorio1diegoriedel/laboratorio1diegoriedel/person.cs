@@ -14,7 +14,18 @@ namespace laboratorio1diegoriedel
         }
         private string Name;
         private string LastName;
-        
+        public person()
+        {
+            this.Name = "Bob";
+            this.LastName = "Kunga";
+        }
+        public string Getname()
+        {
+            return Name;
+        }
+        public string Getlastname()
+        {
+            return LastName;
         }
     }
 }

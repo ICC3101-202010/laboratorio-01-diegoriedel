@@ -8,6 +8,10 @@ namespace laboratorio1diegoriedel
         {
             person diego = new person();
             Console.WriteLine(diego.lanzar());
+            person nombre = new person();
+            Console.WriteLine(nombre.Getname());
+            Console.WriteLine(nombre.Getlastname());
+
             
         }
     }
