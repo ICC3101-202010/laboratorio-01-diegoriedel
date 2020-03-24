@@ -6,7 +6,9 @@ namespace laboratorio1diegoriedel
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            person diego = new person();
+            Console.WriteLine(diego.lanzar());
+            
         }
     }
 }

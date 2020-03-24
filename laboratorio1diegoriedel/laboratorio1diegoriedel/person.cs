@@ -15,5 +15,6 @@ namespace laboratorio1diegoriedel
         private string Name;
         private string LastName;
         
+        }
     }
 }
